@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
+
 :root{
 --ivory:#f5f0e5;
 --paper:#fbf8f0;
@@ -23,7 +24,9 @@
 --line:#d9ceb7
 }
 
-*{box-sizing:border-box}
+*{
+box-sizing:border-box
+}
 
 img{
 max-width:100%;
@@ -79,6 +82,9 @@ color:#777467;
 line-height:1.8;
 font-size:.95rem
 }
+
+
+/* PORTADA */
 
 .hero{
 min-height:100svh;
@@ -147,6 +153,9 @@ letter-spacing:.18em;
 text-transform:uppercase
 }
 
+
+/* NAVEGACIÓN */
+
 nav{
 position:sticky;
 top:0;
@@ -170,6 +179,9 @@ letter-spacing:.16em;
 text-transform:uppercase;
 color:#686657
 }
+
+
+/* HISTORIA */
 
 .story{
 background:var(--paper)
@@ -214,6 +226,9 @@ line-height:.75;
 margin:8px 8px 0 0
 }
 
+
+/* AMOUR ET VIE */
+
 .editorial{
 background:#eee7d7
 }
@@ -226,9 +241,6 @@ box-shadow:0 18px 55px #4d463415;
 max-width:900px;
 margin:48px auto 0
 }
-
-/* La imagen del periódico se ha eliminado.
-   Se conservan únicamente sus frases. */
 
 .paper-text{
 max-width:780px;
@@ -254,6 +266,9 @@ font-size:1.6rem;
 font-style:italic;
 color:var(--olive)
 }
+
+
+/* GALERÍA */
 
 .gallery{
 background:var(--paper)
@@ -286,6 +301,9 @@ font-size:.68rem;
 letter-spacing:.08em;
 text-transform:uppercase
 }
+
+
+/* EL GRAN DÍA */
 
 .day{
 background:var(--ivory)
@@ -330,6 +348,9 @@ width:100%;
 height:360px
 }
 
+
+/* CUENTA ATRÁS */
+
 .count{
 background:var(--olive);
 color:#f7f2e8;
@@ -361,6 +382,9 @@ text-transform:uppercase;
 color:#d9d3c4
 }
 
+
+/* ASISTENCIA */
+
 .rsvp{
 background:var(--paper)
 }
@@ -376,6 +400,9 @@ letter-spacing:.18em;
 text-transform:uppercase;
 border:0
 }
+
+
+/* REGALO */
 
 .gift{
 background:#ece5d7
@@ -395,6 +422,9 @@ letter-spacing:.08em
 margin-left:8px;
 cursor:pointer
 }
+
+
+/* PIE */
 
 .footer{
 padding:85px 20px;
@@ -419,6 +449,9 @@ text-transform:uppercase;
 color:#888071;
 margin-top:30px
 }
+
+
+/* MÓVIL */
 
 @media(max-width:760px){
 
@@ -477,10 +510,14 @@ width:min(300px,78vw)
 }
 
 }
+
 </style>
 </head>
 
 <body>
+
+
+<!-- PORTADA -->
 
 <section class="hero" id="inicio">
 
@@ -493,7 +530,8 @@ Nuestra historia · Nuestro futuro
 <img
 class="hero-photo"
 src="activos/foto-02.jpg"
-alt="Stefany y Noelia junto al mar">
+alt="Stefany y Noelia junto al mar"
+>
 
 <h1 class="names serif">
 Stefany & Noelia
@@ -515,20 +553,31 @@ Nuestra historia comienza aquí
 
 </section>
 
+
+<!-- MENÚ -->
+
 <nav>
 
 <div class="wrap">
 
 <a href="#historia">Historia</a>
+
 <a href="#amour">Amour et Vie</a>
+
 <a href="#recuerdos">Recuerdos</a>
+
 <a href="#dia">El gran día</a>
+
 <a href="#rsvp">Asistencia</a>
+
 <a href="#regalo">Regalo</a>
 
 </div>
 
 </nav>
+
+
+<!-- HISTORIA -->
 
 <section class="section story" id="historia">
 
@@ -540,7 +589,10 @@ Nuestra historia comienza aquí
 Dos caminos · Una vida
 </div>
 
-<h2 class="serif" style="font-size:4rem;color:var(--olive);margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;color:var(--olive);margin:10px 0"
+>
 Un pedacito de nosotras
 </h2>
 
@@ -550,24 +602,28 @@ Algunos momentos que forman parte del camino que nos ha traído hasta este día.
 
 </div>
 
+
 <div class="story-grid">
 
 <img
 class="story-photo"
 src="activos/foto-04.jpg"
-alt="Stefany y Noelia">
+alt="Stefany y Noelia"
+>
 
 <div class="story-copy">
 
 <p>
-<span class="drop">A</span>veces la vida nos sorprende cuando menos lo esperamos.
-Dos personas se encuentran, empiezan a compartir pequeños momentos y,
-casi sin darse cuenta, descubren que quieren seguir caminando juntas.
+<span class="drop">A</span>
+veces la vida nos sorprende cuando menos lo esperamos.
+Dos personas se encuentran, empiezan a compartir pequeños momentos
+y, casi sin darse cuenta, descubren que quieren seguir caminando juntas.
 </p>
 
 <p>
-Nosotras queremos celebrar precisamente eso: todo lo vivido,
-todo lo que nos queda por vivir y la promesa de construir una vida compartida.
+Nosotras queremos celebrar precisamente eso:
+todo lo vivido, todo lo que nos queda por vivir
+y la promesa de construir una vida compartida.
 </p>
 
 <div class="quote">
@@ -582,6 +638,9 @@ todo lo que nos queda por vivir y la promesa de construir una vida compartida.
 
 </section>
 
+
+<!-- AMOUR ET VIE -->
+
 <section class="section editorial" id="amour">
 
 <div class="wrap center">
@@ -590,13 +649,18 @@ todo lo que nos queda por vivir y la promesa de construir una vida compartida.
 Edición especial · Nuestra historia
 </div>
 
-<h2 class="serif" style="font-size:4rem;color:var(--olive);margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;color:var(--olive);margin:10px 0"
+>
 Amour et Vie
 </h2>
 
 <p class="intro">
-Una pequeña página de nuestra historia, inspirada en aquel recuerdo que guardamos con tanto cariño.
+Una pequeña página de nuestra historia,
+inspirada en aquel recuerdo que guardamos con tanto cariño.
 </p>
+
 
 <div class="paper">
 
@@ -620,7 +684,9 @@ o solo mirándonos, abrazadas, acurrucadas y besándonos.”
 c'est regarder ensemble dans la même direction. »
 </p>
 
-<p style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#8a826f">
+<p
+style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#8a826f"
+>
 — Antoine de Saint-Exupéry
 </p>
 
@@ -632,6 +698,9 @@ c'est regarder ensemble dans la même direction. »
 
 </section>
 
+
+<!-- GALERÍA -->
+
 <section class="section gallery" id="recuerdos">
 
 <div class="wrap">
@@ -642,32 +711,71 @@ c'est regarder ensemble dans la même direction. »
 Nuestros recuerdos
 </div>
 
-<h2 class="serif" style="font-size:4rem;color:var(--olive);margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;color:var(--olive);margin:10px 0"
+>
 Momentos que guardamos
 </h2>
 
 </div>
 
+
 <div class="gallery-grid">
 
 <figure>
-<img src="activos/foto-01.jpg" alt="Recuerdo">
-<figcaption>Un momento juntas</figcaption>
+
+<img
+src="activos/foto-01.jpg"
+alt="Recuerdo"
+>
+
+<figcaption>
+Un momento juntas
+</figcaption>
+
 </figure>
 
-<figure>
-<img src="activos/foto-03.jpg" alt="Recuerdo">
-<figcaption>Pequeños detalles</figcaption>
-</figure>
 
 <figure>
-<img src="activos/foto-05.jpg" alt="Recuerdo">
-<figcaption>Siempre juntas</figcaption>
+
+<img
+src="activos/foto-03.jpg"
+alt="Recuerdo"
+>
+
+<figcaption>
+Pequeños detalles
+</figcaption>
+
 </figure>
 
+
 <figure>
-<img src="activos/foto-06.jpg" alt="Recuerdo">
-<figcaption>Un día más para recordar</figcaption>
+
+<img
+src="activos/foto-05.jpg"
+alt="Recuerdo"
+>
+
+<figcaption>
+Siempre juntas
+</figcaption>
+
+</figure>
+
+
+<figure>
+
+<img
+src="activos/foto-06.jpg"
+alt="Recuerdo"
+>
+
+<figcaption>
+Un día más para recordar
+</figcaption>
+
 </figure>
 
 </div>
@@ -675,6 +783,9 @@ Momentos que guardamos
 </div>
 
 </section>
+
+
+<!-- EL GRAN DÍA -->
 
 <section class="section day" id="dia">
 
@@ -686,7 +797,10 @@ Momentos que guardamos
 30 · 05 · 2027
 </div>
 
-<h2 class="serif" style="font-size:4rem;color:var(--olive);margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;color:var(--olive);margin:10px 0"
+>
 El gran día
 </h2>
 
@@ -696,6 +810,7 @@ y empezamos una nueva etapa.
 </p>
 
 </div>
+
 
 <div class="timeline">
 
@@ -719,6 +834,7 @@ Hotel Mar de Fulles · Alfondeguilla, Castellón
 
 </div>
 
+
 <div class="event">
 
 <div class="time">
@@ -738,6 +854,7 @@ Comida, brindis, abrazos y muchas historias que contar.
 </div>
 
 </div>
+
 
 <div class="event">
 
@@ -761,6 +878,7 @@ Porque después de decir “sí”, todavía queda mucho por bailar.
 
 </div>
 
+
 <iframe
 class="map"
 loading="lazy"
@@ -771,6 +889,9 @@ src="https://www.openstreetmap.org/export/embed.html?bbox=-0.313%2C39.814%2C-0.2
 
 </section>
 
+
+<!-- CUENTA ATRÁS -->
+
 <section class="section count">
 
 <div class="wrap">
@@ -779,9 +900,13 @@ src="https://www.openstreetmap.org/export/embed.html?bbox=-0.313%2C39.814%2C-0.2
 La cuenta atrás
 </div>
 
-<h2 class="serif" style="font-size:4rem;margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;margin:10px 0"
+>
 Hasta nuestro sí
 </h2>
+
 
 <div class="clock">
 
@@ -811,6 +936,9 @@ Hasta nuestro sí
 
 </section>
 
+
+<!-- ASISTENCIA -->
+
 <section class="section rsvp" id="rsvp">
 
 <div class="wrap center">
@@ -819,25 +947,33 @@ Hasta nuestro sí
 Queremos contar contigo
 </div>
 
-<h2 class="serif" style="font-size:4rem;color:var(--olive);margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;color:var(--olive);margin:10px 0"
+>
 ¿Nos acompañas?
 </h2>
 
 <p class="intro">
-Confírmanos vuestra asistencia y déjanos cualquier información que necesitemos saber.
+Confírmanos vuestra asistencia y déjanos cualquier información
+que necesitemos saber.
 </p>
 
 <a
 class="btn"
 href="https://forms.gle/oM4u7sLy4NAiF7FbA"
 target="_blank"
-rel="noopener">
+rel="noopener"
+>
 Confirmar asistencia
 </a>
 
 </div>
 
 </section>
+
+
+<!-- REGALO -->
 
 <section class="section gift" id="regalo">
 
@@ -847,28 +983,43 @@ Confirmar asistencia
 Un detalle para nosotras
 </div>
 
-<h2 class="serif" style="font-size:4rem;color:var(--olive);margin:10px 0">
+<h2
+class="serif"
+style="font-size:4rem;color:var(--olive);margin:10px 0"
+>
 Regalos
 </h2>
 
 <p class="intro">
 Lo más importante es compartir este día.
-Si además queréis tener un detalle, podéis hacerlo mediante transferencia.
+Si además queréis tener un detalle,
+podéis hacerlo mediante transferencia.
 </p>
+
 
 <div class="iban" id="iban">
 ES96 2100 6299 0702 0013 1146
 </div>
 
-<button class="btn copy" onclick="copyIban()">
+<button
+class="btn copy"
+onclick="copyIban()"
+>
 Copiar IBAN
 </button>
 
-<p id="copied" style="min-height:20px;color:var(--olive)"></p>
+<p
+id="copied"
+style="min-height:20px;color:var(--olive)"
+>
+</p>
 
 </div>
 
 </section>
+
+
+<!-- FINAL -->
 
 <footer class="footer">
 
@@ -891,27 +1042,29 @@ sino en mirar juntos en la misma dirección.”
 
 </footer>
 
+
 <script>
 
-const wedding=new Date('2027-05-30T12:00:00+02:00');
+const wedding =
+new Date('2027-05-30T12:00:00+02:00');
 
 function tick(){
 
-let d=wedding-new Date();
+let d = wedding - new Date();
 
-if(d<0)d=0;
+if(d < 0) d = 0;
 
-document.getElementById('days').textContent=
-Math.floor(d/864e5);
+document.getElementById('days').textContent =
+Math.floor(d / 864e5);
 
-document.getElementById('hours').textContent=
-Math.floor(d/36e5)%24;
+document.getElementById('hours').textContent =
+Math.floor(d / 36e5) % 24;
 
-document.getElementById('mins').textContent=
-Math.floor(d/6e4)%60;
+document.getElementById('mins').textContent =
+Math.floor(d / 6e4) % 60;
 
-document.getElementById('secs').textContent=
-Math.floor(d/1e3)%60;
+document.getElementById('secs').textContent =
+Math.floor(d / 1e3) % 60;
 
 }
 
@@ -919,13 +1072,15 @@ tick();
 
 setInterval(tick,1000);
 
+
 function copyIban(){
 
 navigator.clipboard?.writeText(
 document.getElementById('iban').textContent.trim()
 ).then(()=>{
 
-document.getElementById('copied').textContent='IBAN copiado ✓';
+document.getElementById('copied').textContent =
+'IBAN copiado ✓';
 
 });
 
